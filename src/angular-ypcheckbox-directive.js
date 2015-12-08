@@ -21,6 +21,7 @@
                         el.removeClass('ypcheckbox_checked');
                     }
                 };
+                el.bind('click', onClick());
                 checkEl.bind('click', onClick);
                 checkElLabel.bind('click', onClick);
 
